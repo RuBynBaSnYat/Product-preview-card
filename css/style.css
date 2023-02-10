@@ -78,13 +78,17 @@ body{
     cursor:pointer;
    padding: 5px;
    margin: 16px 0;
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   gap: .8rem;
 }
 
 .btn img{
     align-content: center;
     width: 30px;
     height: 30px;
-    
+    color: white;
     align-self: center;
     
 }
