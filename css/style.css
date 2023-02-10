@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,700;1,9..144,600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.box{
+    width: 500px;
+    height: 300px;
+    background: white;
+    padding: 1px;
+    border-radius: 10px;
+    display: flex;
+
+    
+}
+
+.box img {
+    width: 250px;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+.text{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    margin: 10px;
+    
+}
+
+.text p {
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+.text h1{
+    font-family:"Fraunces";
+    font-weight: 700;
+    
+}
+.text h2{
+    color:hsl(228, 12%, 48%);
+    font-family: 'Itim', cursive;
+    letter-spacing: 5px;
+    font-weight: 100;
+    font-size: 10px;
+}
+
+.price{
+    color:hsl(158, 36%, 37%) ;
+    font-size: 20px;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    display: flex;
+    gap: 20px;
+}
+.btn{
+    color: white;
+    background:rgb(2, 36, 2);
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor:pointer;
+}
