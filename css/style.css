@@ -15,7 +15,7 @@ body{
 }
 .box{
     width: 500px;
-    height: 300px;
+    height: 400px;
     background: white;
     padding: 1px;
     border-radius: 10px;
@@ -34,8 +34,8 @@ body{
     display: flex;
     flex-direction: column;
     gap: 15px;
-    padding: 15px;
-    margin: 10px;
+    padding: 19px;
+    margin: 11px;
     
 }
 
@@ -68,9 +68,22 @@ body{
 }
 .btn{
     color: white;
+    display: flex;
     background:rgb(2, 36, 2);
     border: none;
     font-size: 20px;
     border-radius: 10px;
+    gap: 5px;
     cursor:pointer;
+   padding: 5px;
+   margin: 16px 0;
+}
+
+.btn img{
+    align-content: center;
+    width: 30px;
+    height: 30px;
+    
+    align-self: center;
+    
 }
