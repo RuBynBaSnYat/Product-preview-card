@@ -67,6 +67,7 @@ body{
     gap: 20px;
 }
 .btn{
+    font-family: Montserrat;
     color: white;
     display: flex;
     background:rgb(2, 36, 2);
