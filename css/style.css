@@ -92,3 +92,9 @@ body{
     align-self: center;
     
 }
+
+.btn:hover{
+    background: white;
+    color: rgb(2, 36, 2);
+    border: 2px solid rgb(2, 36, 2);
+}
