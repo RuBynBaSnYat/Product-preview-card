@@ -70,7 +70,7 @@ body{
     font-family: Montserrat;
     color: white;
     display: flex;
-    background:rgb(2, 36, 2);
+    background:rgb(26, 64, 49);
     border: none;
     font-size: 20px;
     border-radius: 10px;
@@ -95,6 +95,6 @@ body{
 
 .btn:hover{
     background: white;
-    color: rgb(2, 36, 2);
-    border: 2px solid rgb(2, 36, 2);
+    color: rgb(26, 64, 49);
+    border: 2px solid rgb(26, 64, 49);
 }
